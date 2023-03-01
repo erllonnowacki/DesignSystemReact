@@ -18,9 +18,7 @@ export default {
   },
 } as Meta<HeadingProps>
 
-export const Default: StoryObj<HeadingProps> = {
-  args: {},
-}
+export const Default: StoryObj<HeadingProps> = {}
 
 export const Small: StoryObj<HeadingProps> = {
   args: {

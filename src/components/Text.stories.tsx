@@ -5,7 +5,7 @@ export default {
   title: 'Components/Text',
   component: Text,
   args: {
-    children: 'Teste',
+    children: 'Lorem ipsum.',
     size: 'md',
   },
   argTypes: {
@@ -18,9 +18,7 @@ export default {
   },
 } as Meta<TextProps>
 
-export const Default: StoryObj<TextProps> = {
-  args: {},
-}
+export const Default: StoryObj<TextProps> = {}
 
 export const Small: StoryObj<TextProps> = {
   args: {
@@ -37,7 +35,7 @@ export const Large: StoryObj<TextProps> = {
 export const CustomComponent: StoryObj<TextProps> = {
   args: {
     asChild: true,
-    children: <p> Text with P tag </p>,
+    children: <p>Text with P tag</p>,
   },
   argTypes: {
     children: {
